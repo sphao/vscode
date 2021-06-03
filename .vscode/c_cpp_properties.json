@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/LLVM/i686-w64-mingw32/include/",
+                "D:/LLVM/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\LLVM\\i686-w64-mingw32\\bin\\gcc.exe",
+            "cStandard": "c89",
+            "cppStandard": "gnu++98",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
