@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "D:/LLVM/i686-w64-mingw32/include/",
-                "D:/LLVM/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/"
+                "D:/LLVM/lib/gcc/i686-w64-mingw32/8.1.0/include/",
+                "D:/LLVM/"
             ],
             "defines": [
                 "_DEBUG",
