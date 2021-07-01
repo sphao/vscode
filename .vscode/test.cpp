@@ -1,7 +1,4 @@
-//TODO: try
-//TODO: test
-
-#include <cstdio>
+#include <stdio.h>
 int main(){
     int a = 0;
     scanf("%d", &a);
@@ -10,4 +7,6 @@ int main(){
     printf("hi 2");
     printf("hello world");
     printf("we helle world");
+    printf("hello");
+    scanf("%d", &a);
 }

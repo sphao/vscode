@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.3)  4 JUN 2021 03:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.3)  24 JUN 2021 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -39,7 +39,8 @@ File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
 Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
  (d:/programs/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
-)) (./test.aux)
+))
+No file test.aux.
 \openout1 = `test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -52,7 +53,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3.
- (d:/programs/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+(d:/programs/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -66,16 +67,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 5.
- [1
+
+./test.tex:7: Undefined control sequence.
+l.7         \coordinate
+                        (x) at 3.5
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./test.tex:8: Undefined control sequence.
+l.8         \node
+                 [options] (a) at d {d};;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
 
 ] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 654 strings out of 478855
- 14789 string characters out of 5864041
- 562822 words of memory out of 5000000
+ 652 strings out of 478855
+ 14771 string characters out of 5864041
+ 563831 words of memory out of 5000000
  20593 multiletter control sequences out of 15000+600000
  403438 words of font info for 28 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 71i,4n,75p,193b,100s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,75p,193b,100s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on test.pdf (1 page).
